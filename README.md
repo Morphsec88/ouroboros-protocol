@@ -101,3 +101,4 @@ For microcontrollers (ESP32, STM32, Arduino) or ASIC/FPGA synthesis, include the
 ## License
 
 This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)** — see the `LICENSE` file for details. Commercial dual-licensing is available upon request.
+Copyright (c) 2026 Morphsec88 (Istvan Fejes). All rights reserved under the AGPL-3.0 license.
