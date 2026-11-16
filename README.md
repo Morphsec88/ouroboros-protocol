@@ -79,6 +79,16 @@ stego = OuroborosEngine(mode="STEGO_PROSE", seed="MySecretKey2026")
 hidden_traffic = stego.encode_data(b"LAUNCH_CODES")
 print(hidden_traffic)
 ```
+### Running the Benchmarks & Interactive Demo
+After cloning the repository, you can run the built-in test suites directly from your terminal:
+
+```bash
+# Run speed, noise-tolerance, and steganography benchmarks
+python examples/benchmark.py
+
+# Launch the interactive CLI playground
+python examples/play.py
+```
 
 ---
 
