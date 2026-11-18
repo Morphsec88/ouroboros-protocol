@@ -5,20 +5,20 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ouroboros-protocol"
 version = "1.0.0"
-description = "Zero-dependency, deterministic cyclic encoding protocol with built-in 3-vs-1 FEC, LLM token optimization, and dynamic steganography."
+description = "Zero-dependency, deterministic cyclic encoding protocol with 3-vs-1 filler recovery, LLM-safe word framing, and keyed steganography."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = { text = "AGPL-3.0-or-later" }
 authors = [
     { name = "Morphsec88" }
 ]
-keywords = ["encoding", "fec", "error-correction", "iot", "llm", "steganography", "cybersecurity"]
+keywords = ["encoding", "fec", "error-correction", "iot", "llm", "steganography", "obfuscation"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: C",
     "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
     "Topic :: Communications",
-    "Topic :: Security :: Cryptography",
+    "Topic :: Security",
     "Topic :: System :: Hardware"
 ]
 
@@ -28,3 +28,4 @@ Repository = "https://github.com"
 
 [tool.setuptools.packages.find]
 include = ["ouroboros*"]
+
