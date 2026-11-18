@@ -60,7 +60,7 @@ Tested against standard Base64 on a 25% block-noise channel:
 
 ### Installation
 ```bash
-git clone https://github.com
+git clone https://github.com/Morphsec88/ouroboros-protocol.git
 cd ouroboros-protocol
 pip install .
 ```
